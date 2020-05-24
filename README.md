@@ -7,3 +7,8 @@ Korean surname data
 Source 데이터와의 차이
 - "기타" 본관, 인구 1000명 미만 본관 데이터 삭제 (1097461/49705663명 = 2.20%)
 - 성씨와 본관 정보 결합해서 정리
+## Use (Deno)
+```ts
+import surname from "https://raw.githubusercontent.com/randkid/surname/master/mod.ts";
+console.log(surname.data[0]) // [ "소주 가(賈)", 8798 ]
+```
