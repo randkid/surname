@@ -7,6 +7,7 @@ Korean surname data
 Source 데이터와의 차이
 - "기타" 본관, 인구 1000명 미만 본관 데이터 삭제 (1097461/49705663명 = 2.20%)
 - 성씨와 본관 정보 결합해서 정리
+- 인구순 정렬
 ## Use (Deno)
 ```ts
 import surname from "https://raw.githubusercontent.com/randkid/surname/master/mod.ts";
