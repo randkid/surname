@@ -11,5 +11,5 @@ Source 데이터와의 차이
 ## Use (Deno)
 ```ts
 import surname from "https://raw.githubusercontent.com/randkid/surname/master/mod.ts";
-console.log(surname.data[0]) // [ "소주 가(賈)", 8798 ]
+console.log(surname.rand(Math.random())) // ex) "소주 가(賈)"
 ```
